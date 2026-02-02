@@ -6,7 +6,7 @@ This project utilizes a dataset from LendingClub, a US-based peer-to-peer lendin
 
 Given the context of predicting whether a borrower will pay back their loan using data from LendingClub, I focused on improving precision assuming that the priority is to avoid bad loans and minimizing credit losses.  The precision is important  if the lender's strategy is highly risk-averse or if the lender's capital reserves are limited since the precision measures the accuracy of positive predictions.
 
-<ins>**My model shows a high precision for predicting defaults (label 0) at 99%, which indicates that when it predicts a loan will not be paid back, it is correct 99% of the time.**<ins>
+<ins>**My model shows a high precision for predicting defaults (label 0) at 99%, which indicates that when it predicts a loan will not be paid back, it is correct 99% of the time.** This metric is extremely relevant for a risk-averse strategy. <ins>
 
 <ins>**For loans predicted to be paid back (label 1), the precision is lower at 88%, but the recall is very high at 100%. This means the model is very good at identifying loans that will truly be paid back, but it can also give false predictions.**<ins>
 
