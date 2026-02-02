@@ -8,7 +8,7 @@ Given the context of predicting whether a borrower will pay back their loan usin
 
 <ins>**My model shows a high precision for predicting defaults (label 0) at 99%, which indicates that when it predicts a loan will not be paid back, it is correct 99% of the time.**<ins>
 
-<ins>**For loans predicted to be paid back (label 1), the precision is lower at 88%, but the recall is very high at 100% (which means the model is very good at identifying loans that will be paid back).**<ins>
+<ins>**For loans predicted to be paid back (label 1), the precision is lower at 88%, but the recall is very high at 100%. This means the model is very good at identifying loans that will truly be paid back, but it can also give false predictions.**<ins>
 
 
 
